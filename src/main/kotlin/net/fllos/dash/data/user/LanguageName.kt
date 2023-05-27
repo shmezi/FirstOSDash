@@ -1,4 +1,3 @@
-package net.fllos.dash.user
+package net.fllos.dash.data.user
 
-class LanguageName {
-}
+data class LanguageName(val first: String, val last: String)

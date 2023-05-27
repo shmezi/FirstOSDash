@@ -22,6 +22,8 @@ repositories {
 }
 
 dependencies {
+    implementation("AlexLib:database:3.4.4.2")
+    implementation("AlexLib:utilities:3.1")
     implementation("io.ktor:ktor-server-core-jvm:$ktor_version")
     implementation("io.ktor:ktor-server-auth-jvm:$ktor_version")
     implementation("io.ktor:ktor-client-core-jvm:$ktor_version")

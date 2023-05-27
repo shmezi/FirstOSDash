@@ -1,8 +1,9 @@
-package net.fllos.dash.user
+package net.fllos.dash.data.user
 
 import java.util.*
 
-class ClientUser(
-    val uuid: UUID
-
+open class ClientUser(
+    val uuid: UUID,
+    val name: Map<String, LanguageName>,
+    val number: String
 )

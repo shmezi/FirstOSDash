@@ -12,7 +12,7 @@ import io.ktor.server.routing.*
 fun Application.configureSecurity() {
 
     authentication {
-        oauth("auth-oauth-google") {
+        oauth("google") {
             urlProvider = { "http://localhost:8080/callback" }
             providerLookup = {
                 OAuthServerSettings.OAuth2ServerSettings(
@@ -35,7 +35,7 @@ fun Application.configureSecurity() {
         }
     }
     routing {
-        authenticate("auth-oauth-google") {
+        authenticate("google") {
             get("login") {
                 call.respondRedirect("/callback")
             }

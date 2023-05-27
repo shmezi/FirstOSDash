@@ -1,4 +1,6 @@
-package net.fllos.dash.user
+package net.fllos.dash.data.user
 
-class ServerUser {
+import java.util.*
+
+class ServerUser(uuid: UUID, name: Map<String, LanguageName>, number: String, oAuth:String) : ClientUser(uuid, name, number) {
 }

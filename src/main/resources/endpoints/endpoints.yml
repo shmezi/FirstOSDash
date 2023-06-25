@@ -1,0 +1,8 @@
+firstos.com/api/user GET -> Get user information
+fllos.com/api/user?id=<UserId>
+fllos.com/api/org/create PUT -> {name}
+fllos.com/api/org/
+
+
+
+fllos.com/organizationId/

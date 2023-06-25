@@ -1,6 +1,6 @@
 package net.fllos.dash.data.organization.event
 
-enum class EventType{
+enum class Program{
     FRC,
     FTC,
     FLLC,

@@ -19,7 +19,9 @@ application {
 
 repositories {
     mavenCentral()
-}
+    flatDir {
+        dirs("libs")
+    }}
 
 dependencies {
     implementation("AlexLib:database:3.4.4.2")
